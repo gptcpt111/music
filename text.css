@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./loginpage-img.jpeg");
+    width: 1475px;
+    height: 740px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: absolute;
+    background-color: rgba(0, 0, 0, 0.919);
+    position: absolute;
+
+
+}
+.div{
+    
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blure(15px);
+    background-color: rgba(242, 237, 237, 0.4);
+    -webkit-backdrop-filter: blur(16px);
+    border:1px solid rgb(255,255,255,0.18);
+    box-shadow: 0 11px 32px 0 rgba(242, 237, 237, 0.919);
+    margin-top: 15px;
+    
+    /* border: #d14343b6; */
+    
+    
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.id{
+    width: 300px;
+    height: 25px;    
+}
+button{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    border-radius: 4px;
+
+}
+button{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    border: #d14343b6;
+    padding: 4px;
+    margin: 8px;
+    cursor: pointer;
+}
+.id:hover{
+    border-radius: 5px;
+    border-color: rgb(243, 11, 11);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+button:hover{
+    
+    background-color: chartreuse;
+    transition: 1s;
+    box-shadow: 0 11px 32px 0 rgba(0,0,0,0.17);
+}
